@@ -31,10 +31,10 @@
 	}
 ?>
 <form action="ejercicio1.php" method="POST">
-	Numero1: <input type="text" name="txtN1" size="10" value="<php? echo $numero1; ?>"/>
-	Numero2: <input type="text" name="txtN2" size="10" value="<php? echo $numero2; ?>"/>
-	Resultado: <input type="text" name="txtR" size="10" value="<php? echo $suma; ?>" disabled/>
-	Mensaje: <input type="text" name="txtR" size="15" value="<php? echo $mensaje; ?>" disabled/>
+	Numero1: <input type="text" name="txtN1" size="10" value="<?php echo $numero1; ?>"/>
+	Numero2: <input type="text" name="txtN2" size="10" value="<?php echo $numero2; ?>"/>
+	Resultado: <input type="text" name="txtR" size="10" value="<?php echo $suma; ?>" disabled/>
+	Mensaje: <input type="text" name="txtR" size="15" value="<?php echo $mensaje; ?>" disabled/>
 	<input type="submit" value="Sumar" name="subSumar"/>
 </form>
 </form>
