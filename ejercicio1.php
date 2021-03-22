@@ -35,6 +35,7 @@
 	Numero2: <input type="text" name="txtN2" size="10" value="<php? echo $numero2; ?>"/>
 	Resultado: <input type="text" name="txtR" size="10" value="<php? echo $suma; ?>" disabled/>
 	Mensaje: <input type="text" name="txtR" size="15" value="<php? echo $mensaje; ?>" disabled/>
+	
 </form>
 </body>
 </html>
