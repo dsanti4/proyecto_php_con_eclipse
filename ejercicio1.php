@@ -20,7 +20,7 @@
 	if (isset($_POST['subSumar'])) {
 		$numero1 = $_POST['txtN1'];
 		$numero2 = $_POST['txtN2'];
-		if (is_numerio($numero1) && is_numerio($numero2)){
+		if (is_numeric($numero1) && is_numeric($numero2)){
 			$suma = $numero1 + $numero2;
 		} else {
 		$numero1 = "";
@@ -35,8 +35,8 @@
 	Numero2: <input type="text" name="txtN2" size="10" value="<php? echo $numero2; ?>"/>
 	Resultado: <input type="text" name="txtR" size="10" value="<php? echo $suma; ?>" disabled/>
 	Mensaje: <input type="text" name="txtR" size="15" value="<php? echo $mensaje; ?>" disabled/>
-
-
+	<input type="submit" value="Sumar" name="subSumar"/>
+</form>
 </form>
 </body>
 </html>
